@@ -1,0 +1,13 @@
+/* 全局样式 */
+a {
+  /* 去掉nuxt-link的下划线，nuxt-link最后会被渲染成<a></a> */
+  text-decoration: none;
+}
+
+/* 过度效果 */
+.page-enter-active, .page-leave-active {
+  transition: opacity .5s;
+}
+.page-enter, .page-leave-active {
+  opacity: 0;
+}
